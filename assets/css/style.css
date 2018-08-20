@@ -1,0 +1,51 @@
+body{
+    background: url("../images/background7.jpg");
+    background-size: 100%;
+}
+
+.header {
+    padding: 1%;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    font-weight: normal;
+    background-image: url("../images/head-gif7.gif");
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+.instruction {
+    margin: 1%;
+    background: rgba(106, 170, 223, 0.1);
+    color: white;
+    padding: 2%;
+    text-indent: 50px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main-image {
+    opacity: 1.0;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.player-score {
+    margin: 1%;
+    background: rgba(106, 170, 223, 0.1);
+    color: white;
+    padding: 2%;
+    text-indent: 50px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+
+}
