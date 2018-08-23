@@ -1,0 +1,28 @@
+
+body {
+    background-image: url("background-1.jpg");
+    background-size: 28%;
+    background-repeat: repeat;
+}
+
+img{
+    width:300px;
+    height:300px;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10px;
+    margin:20px;
+    width:50%;
+    text-align: center;
+    color:white;
+    font-size:25px;
+    background-color: powderblue;
+}
+
+.footer {
+    background: grey;
+    color: white;
+    margin-top: 143px;
+}

@@ -3,6 +3,14 @@ body{
     background-size: 100%;
 }
 
+.content {
+    text-shadow: 0 0 20px black;
+}
+
+.score-board {
+    text-shadow: 0 0 20px black;
+}
+
 .header {
     padding: 1%;
     font-size: 60px;
@@ -12,21 +20,20 @@ body{
     font-weight: normal;
     /* background-image: url("../images/head-gif7.gif"); */
     background-position: center;
-    /* word-spacing: 80px; */
     background-size: 20%;
     background-repeat: no-repeat;
-    /* padding-left: 90px; */
+    
 }
 
 .instruction {
-    margin: 1%;
     background: rgba(106, 170, 223, 0.1);
     color: white;
     padding: 2%;
-    text-indent: 50px;
+    line-break: 50px;
     font-size: 23px;
     font-family: 'Dancing Script', cursive;
 }
+
 
 .main-image {
     opacity: 1.0;
@@ -36,7 +43,7 @@ body{
     margin: 1%;
     background: rgba(106, 170, 223, 0.5);
     color: white;
-    padding: 2%;
+    padding: 15%;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
 }
