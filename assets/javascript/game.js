@@ -11,11 +11,11 @@ var restart = function () {
 
     $(".crystals").empty();
 
-    var images = [
-        '', 
-        '',
-        '',
-        ''];
+    // var images = [
+    //     '', 
+    //     '',
+    //     '',
+    //     ''];
 
     //Random Galaxy Number
     randomResult = Math.floor(Math.random() * 101) + 19;

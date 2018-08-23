@@ -10,9 +10,12 @@ body{
     font-family: 'Dancing Script', cursive;
     color: white;
     font-weight: normal;
-    background-image: url("../images/head-gif7.gif");
+    /* background-image: url("../images/head-gif7.gif"); */
+    background-position: center;
+    /* word-spacing: 80px; */
     background-size: 20%;
     background-repeat: no-repeat;
+    /* padding-left: 90px; */
 }
 
 .instruction {
@@ -39,7 +42,7 @@ body{
 }
 
 .crystals {
-    opacity: 0.8;
+    opacity: 0.5;
     filter: alpha(opacity=50); 
     display: flex;
     justify-content: space-around;
@@ -47,15 +50,20 @@ body{
 }
 
 .crystal {
-    
     height: 190px;
     width: 265px;
+}
+
+.crystals:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
 }
 
 #crystal-0 {
     background-image: url('../images/diamond1.gif');
     background-size: 100%;
 }
+
 
 #crystal-1 {
     background-image: url('../images/diamond2.gif');
@@ -72,12 +80,4 @@ body{
     background-size: 100%;
 }
 
-/* img {
-    opacity: 0.5;
-    filter: alpha(opacity=50); 
-}
 
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); 
-} */
