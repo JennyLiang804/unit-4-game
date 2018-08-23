@@ -39,18 +39,40 @@ body{
 }
 
 .crystals {
+    opacity: 0.8;
+    filter: alpha(opacity=50); 
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .crystal {
-    border: 1px solid green;
+    
     height: 190px;
     width: 265px;
 }
 
-img {
+#crystal-0 {
+    background-image: url('../images/diamond1.gif');
+    background-size: 100%;
+}
+
+#crystal-1 {
+    background-image: url('../images/diamond2.gif');
+    background-size: 100%;
+}
+
+#crystal-2 {
+    background-image: url('../images/diamond3.gif');
+    background-size: 100%;
+}
+
+#crystal-3 {
+    background-image: url('../images/diamond4.gif');
+    background-size: 100%;
+}
+
+/* img {
     opacity: 0.5;
     filter: alpha(opacity=50); 
 }
@@ -58,4 +80,4 @@ img {
 img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
-}
+} */

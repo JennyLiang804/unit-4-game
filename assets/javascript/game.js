@@ -11,7 +11,11 @@ var restart = function () {
 
     $(".crystals").empty();
 
-    var images = ['', '','',''];
+    var images = [
+        '', 
+        '',
+        '',
+        ''];
 
     //Random Galaxy Number
     randomResult = Math.floor(Math.random() * 101) + 19;
@@ -29,8 +33,13 @@ var restart = function () {
         var crystal = $("<div>");
         crystal.attr({
             "class": 'crystal',
-            "data-random": random
+            "data-random": random,
+            "id" : 'crystal-' + i
         });
+
+        // crystal.css({
+        //     "background-image":"url('" + images[i] + "')",
+        // })
 
         console.log(random);
 
