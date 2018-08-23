@@ -16,65 +16,68 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1><strong>Crystals Collector!</strong></h1>
-            <hr>
-        </div>
+    <div id="game">
+        <div class="container">
+            <div class="header">
+                <h1><strong>Galaxy Collector!</strong></h1>
+                <hr>
+            </div>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="instruction">
-                    <p class="content">You will be given a random number at the start of the game. There are four Crystals
-                        below. By clicking on a crysal you will add a specific amount of points to your total score.</p>
-                    <p class="content">You win the game by matching your total score to random number, you lose the game
-                        if your total score goes above the random number.</p>
-                    <p class="content">Each time when the game starts the game will change the value of each crystal.</p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="instruction">
+                        <p class="content">The Galaxy will generate a random number at the start of the game. There are four
+                            Crystal balls below. By clicking on a crysal ball you will add a specific amount of points to
+                            your total score.</p>
+                        <p class="content">You win the game by matching your total score to the "Galaxy number", you lose
+                            the game if your total score goes above the "Galaxy number".</p>
+                        <p class="content">Each time when the game starts the game will change the value of each crystal
+                            ball.
+                        </p>
+
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="player-score">
-                    <p>Your Total Score is:</p>
+            <div class="row">
+                <div class="col-sm-4">
                     <div class="score-board">
-                        <p>Win:</p>
-                        <p>Losses:</p>
+                        <p id="player-score">Your Total Score:</p>
+                        <br><br>
+                        <p id="galaxy">Galaxy Number:</p>
                     </div>
-                    <div class="computer-score">
-                        <p>''</p>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <div class="main-crystal">
+                        <img class="main-image" src="assets/images/head-gif8.gif" alt="main-image" width="380" height="453">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="score-board">
+                        <p id="win">Win:</p>
+                        <br><br>
+                        <p id="lost">Losses:</p>
                     </div>
                 </div>
             </div>
-         
 
-            <div class="col-lg-5">
-                <div class="main-crystal">
-                <img class="main-image" src="assets/images/main2.gif" alt="main-image" width="600" height="450">
-             </div>
-
+            <div class="crystals">
+                <img style="background-color: transparent" id="diamond1" src="assets/images/diamond1.gif" alt="player-image" width="265"
+                    height="200">
+                <img id="diamond2" src="assets/images/diamond2.gif" alt="player-image" width="265" height="200">
+                <img id="diamond3" src="assets/images/diamond3.gif" alt="player-image" width="265" height="200">
+                <img id="diamond4" src="assets/images/diamond4.gif" alt="player-image" width="265" height="200">
             </div>
+
+
         </div>
-
-        <div class="row">
-                <div class="player-crystals">
-                    <button style="background-color: transparent;"><img class="player-image" src="assets/images/diamond1.gif" alt="player-image"
-                        width="250" height="200"></button>
-                    <button style="background-color: transparent;"><img class="player-image" src="assets/images/diamond2.gif" alt="player-image"
-                        width="250" height="200"></button>
-                    <button style="background-color: transparent;"><img class="player-image" src="assets/images/diamond3.gif" alt="player-image"
-                        width="250" height="200"></button>
-                    <button style="background-color: transparent;"><img class="player-image" src="assets/images/diamond4.gif" alt="player-image"
-                        width="250" height="200"></button>
-                </div>
-            </div>
-        </div>
-
-
     </div>
 
 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
