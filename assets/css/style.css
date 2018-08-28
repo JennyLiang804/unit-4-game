@@ -69,22 +69,26 @@ body{
 #crystal-0 {
     background-image: url('../images/diamond1.gif');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
 #crystal-1 {
     background-image: url('../images/diamond2.gif');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #crystal-2 {
     background-image: url('../images/diamond3.gif');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #crystal-3 {
     background-image: url('../images/diamond4.gif');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 

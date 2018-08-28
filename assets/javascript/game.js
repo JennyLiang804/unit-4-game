@@ -11,12 +11,6 @@ var restart = function () {
 
     $(".crystals").empty();
 
-    // var images = [
-    //     '', 
-    //     '',
-    //     '',
-    //     ''];
-
     //Random Galaxy Number
     randomResult = Math.floor(Math.random() * 101) + 19;
 
@@ -37,13 +31,10 @@ var restart = function () {
             "id" : 'crystal-' + i
         });
 
-        // crystal.css({
-        //     "background-image":"url('" + images[i] + "')",
-        // })
-
         console.log(random);
 
         $(".crystals").append(crystal);
+        
     }
 }
 
