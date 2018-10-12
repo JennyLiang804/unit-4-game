@@ -92,3 +92,18 @@ body{
 }
 
 
+@media only screen and (min-width : 375px) and (max-width : 1024px) {
+    body{
+        background: url("../images/background7.jpg");
+        background-size: 400%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .main-crystal, .main-image {
+        width: 80%;
+        height: 100%;
+        display: block;
+        margin: 1px auto;
+    }
+}
